@@ -83,6 +83,7 @@ Setelah memastikan endpoint sudah benar untuk production, ikuti langkah berikut 
 
 a. Bersihkan Cache
 Hapus cache untuk memastikan build bersih:
+
 ```bash
 # directory driverapp in terminal
 cd android
@@ -90,11 +91,13 @@ cd android
 
 b. Generate File APK
 Masuk ke direktori android:
+
 ```bash
 # directory driverapp in terminal
 cd android
 
 Jalankan perintah berikut untuk membuat file APK:
+
 ```bash
 # directory driverapp in terminal
 ./gradlew assembleRelease
