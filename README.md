@@ -81,7 +81,7 @@ To learn more about React Native, take a look at the following resources:
 # Build APK File
 Setelah memastikan endpoint sudah benar untuk production, ikuti langkah berikut untuk membangun file APK:
 
-a. Bersihkan Cache
+# Bersihkan Cache
 Hapus cache untuk memastikan build bersih:
 
 ```bash
@@ -89,25 +89,19 @@ Hapus cache untuk memastikan build bersih:
 cd android
 ./gradlew clean
 
-b. Generate File APK
+# Generate File APK
 Masuk ke direktori android:
 
-```bash
 # directory driverapp in terminal
 cd android
 
-Jalankan perintah berikut untuk membuat file APK:
-
-```bash
 # directory driverapp in terminal
 ./gradlew assembleRelease
 
-```bash
 # directory app in terminal
 File APK akan tersedia di:
 android/app/build/outputs/apk/release/app-release.apk
 
-```bash
 # install app on android
 Salin file APK ke perangkat Android Anda.
 Instal APK di perangkat.
